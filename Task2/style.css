@@ -1,0 +1,33 @@
+html,body{
+  height:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#D8D8D8;
+  color:#B4B4B4;
+}
+/* Smartphones */
+@media (max-width : 767px)
+{
+  .tablet, .desktop
+  {
+    display: none;
+  }
+}
+/* Tablets */
+@media(min-width : 768px) and (max-width : 1023px)
+{
+  .mobile , .desktop
+  {
+    display: none;
+  }
+
+}
+/* Desktops and laptops */
+@media (min-width : 1024px)
+{
+  .mobile, .tablet
+  {
+    display: none;
+  }
+}

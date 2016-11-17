@@ -1,113 +1,91 @@
-*
-{
+*{
 	margin: 0;
 	padding: 0;
 }
 
-.conteiner
-{
-		display: flex;
-		flex-wrap: wrap;
+.conteiner{
+  padding: 1vh;
+	display: flex;
+	flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /*Smarthphones*/
 @media (max-width: 767px){
 
-	.top
-  {
+	.top{
 		background: #53aeeb;
     height: 100px;
 		width: 100%;
-		margin: 2%;
+		margin-bottom: 1vh;
 	}
-	.menu
-  {
+	.menu{
 		background: #019145;
     height: 100px;
 		width: 100%;
-		margin-left: 2%;
-    margin-right: 2%;
+		margin-bottom: 1vh;
 	}
-	.main
-  {
+	.main{
 		background: #d41341;
     height: 350px;
 		width: 100%;
-    margin: 2%;
 	}
-	.bar
-   {
+	.bar{
 		display: none;
 	}
 }
 
 /*Tablets*/
 @media (min-width: 768px) and (max-width: 1023px){
-	.top
-  {
+	.top{
     background: #53aeeb;
     height: 100px;
 		width: 100%;
-    margin: 2%;
+		margin-bottom: 1vh;
 	}
-	.menu
-  {
+	.menu{
 		background: #019145;
     height: 100px;
     width: 100%;
-    margin-right: 2%;
-		margin-left: 2%;
-    margin-bottom: 2%;
+		margin-bottom: 1vh;
 	}
-	.main
-  {
+	.main{
 		background: #d41341;
     height: 350px;
     width: 50%;
-    margin-right: 2%;
-    margin-left: 2%;
 	}
-	.bar
-  {
+	.bar{
 		background: #f2851f;
     height: 350px;
-    width: 44%;
+    width: 48%;
 	}
 }
 
 /*Desktop*/
 @media (min-width: 1024px){
-	.top
-  {
+	.top{
     background: #53aeeb;
-    height: 150px;
+    height: 100px;
 		width: 100%;
-    margin: 2%;
+		margin-bottom: 1vh;
 	}
 
-	.menu
-  {
+	.menu{
 		background: #019145;
     height: 450px;
-		width: 18%;
-    margin-left: 2%;
-    margin-top: 1%;
+		width: 22%;
+    margin-bottom: 1vh;
 	}
 
-	.main
-  {
+	.main{
 		background: #d41341;
     height: 450px;
-		width: 58%;
-    margin: 1%;
+		width: 55%;
 	}
 
-	.bar
-  {
+	.bar{
 		background: #f2851f;
     height: 450px;
-		width: 18%;
-    margin-top: 1%;
-    margin-right: 2%;
+		width: 20%;
 	}
 }

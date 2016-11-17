@@ -4,7 +4,7 @@
 }
 
 .conteiner{
-  padding: 1vh;
+  padding: 5px;
 	display: flex;
 	flex-wrap: wrap;
   justify-content: space-between;
@@ -17,13 +17,13 @@
 		background: #53aeeb;
     height: 100px;
 		width: 100%;
-		margin-bottom: 1vh;
+		margin-bottom: 5px;
 	}
 	.menu{
 		background: #019145;
     height: 100px;
 		width: 100%;
-		margin-bottom: 1vh;
+		margin-bottom: 5px;
 	}
 	.main{
 		background: #d41341;
@@ -41,23 +41,24 @@
     background: #53aeeb;
     height: 100px;
 		width: 100%;
-		margin-bottom: 1vh;
+		margin-bottom: 5px;
 	}
 	.menu{
 		background: #019145;
     height: 100px;
     width: 100%;
-		margin-bottom: 1vh;
+		margin-bottom: 5px;
 	}
 	.main{
 		background: #d41341;
     height: 350px;
     width: 50%;
+		margin-right: 5px;
 	}
 	.bar{
 		background: #f2851f;
     height: 350px;
-    width: 48%;
+    width: 49%;
 	}
 }
 
@@ -67,20 +68,21 @@
     background: #53aeeb;
     height: 100px;
 		width: 100%;
-		margin-bottom: 1vh;
+		margin-bottom: 5px;
 	}
 
 	.menu{
 		background: #019145;
     height: 450px;
-		width: 22%;
-    margin-bottom: 1vh;
+		width: 24%;
+		margin-right: 5px;
 	}
 
 	.main{
 		background: #d41341;
     height: 450px;
 		width: 55%;
+		margin-right: 5px;
 	}
 
 	.bar{

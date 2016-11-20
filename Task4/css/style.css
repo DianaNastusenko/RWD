@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+
+}
+body{
+    height: 100%;
+    padding: 10px;
+
+}
+html{
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.main{
+    height: 100%;
+}
+.logo{
+    background: #38C8FE;
+    margin-right: 10px;
+}
+.nav{
+    background: #FFAF47;
+}
+.content{
+    background: #FF7747;
+}
+.info{
+    background: #FFD54A;
+}
+.navigation{
+    height: 120px;
+    display:flex;
+}
+.cont{
+    height: 350px;
+}
+.advertisment{
+    height: 200px;
+    display:flex;
+}
+.content, .logo, .nav, .item, .footer, .lastitem{
+    height: 100%;
+}
+.item{
+    background: #FFD647;
+    width: 33%;
+    margin-right: 10px;
+}
+.lastitem {
+    background: #FFD647;
+    width: 33%;
+}
+.footer-holder{
+  height: 100px;
+}
+.row{
+      padding: 5px;
+}
+.footer{
+    background: #FDC1FF;
+    display:flex;
+    align-items:flex-end;
+}
+
+/*custom media*/
+@media only screen and (max-width: 767px){
+  .advertisment{
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+  }
+  .item{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .lastitem{
+    width: 100%;
+  }
+}

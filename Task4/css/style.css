@@ -45,12 +45,10 @@ html{
 }
 .item{
     background: #FFD647;
-    width: 33%;
     margin-right: 10px;
 }
 .lastitem {
     background: #FFD647;
-    width: 33%;
 }
 .footer-holder{
   height: 100px;

@@ -1,93 +1,88 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-
-.conteiner{
-  padding: 5px;
-	display: flex;
-	flex-wrap: wrap;
-  justify-content: space-between;
+.conteiner {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-
 /*Smarthphones*/
-@media (max-width: 767px){
 
-	.top{
-		background: #53aeeb;
-    height: 100px;
-		width: 100%;
-		margin-bottom: 5px;
-	}
-	.menu{
-		background: #019145;
-    height: 100px;
-		width: 100%;
-		margin-bottom: 5px;
-	}
-	.main{
-		background: #d41341;
-    height: 350px;
-		width: 100%;
-	}
-	.bar{
-		display: none;
-	}
+@media (max-width: 767px) {
+    .top {
+        background: #53aeeb;
+        height: 100px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .menu {
+        background: #019145;
+        height: 100px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .main {
+        background: #d41341;
+        height: 350px;
+        width: 100%;
+    }
+    .bar {
+        display: none;
+    }
 }
-
 /*Tablets*/
-@media (min-width: 768px) and (max-width: 1023px){
-	.top{
-    background: #53aeeb;
-    height: 100px;
-		width: 100%;
-		margin-bottom: 5px;
-	}
-	.menu{
-		background: #019145;
-    height: 100px;
-    width: 100%;
-		margin-bottom: 5px;
-	}
-	.main{
-		background: #d41341;
-    height: 350px;
-    width: 50%;
-		margin-right: 5px;
-	}
-	.bar{
-		background: #f2851f;
-    height: 350px;
-    width: 49%;
-	}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .top {
+        background: #53aeeb;
+        height: 100px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .menu {
+        background: #019145;
+        height: 100px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .main {
+        background: #d41341;
+        height: 350px;
+        width: 50%;
+        margin-right: 5px;
+    }
+    .bar {
+        background: #f2851f;
+        height: 350px;
+        width: 49%;
+    }
 }
-
 /*Desktop*/
-@media (min-width: 1024px){
-	.top{
-    background: #53aeeb;
-    height: 100px;
-		width: 100%;
-		margin-bottom: 5px;
-	}
 
-	.menu{
-		background: #019145;
-    height: 450px;
-		width: 24%;
-		margin-right: 5px;
-	}
-
-	.main{
-		background: #d41341;
-    height: 450px;
-		width: 55%;
-		margin-right: 5px;
-	}
-
-	.bar{
-		background: #f2851f;
-    height: 450px;
-		width: 20%;
-	}
+@media (min-width: 1024px) {
+    .top {
+        background: #53aeeb;
+        height: 100px;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .menu {
+        background: #019145;
+        height: 450px;
+        width: 24%;
+        margin-right: 5px;
+    }
+    .main {
+        background: #d41341;
+        height: 450px;
+        width: 55%;
+        margin-right: 5px;
+    }
+    .bar {
+        background: #f2851f;
+        height: 450px;
+        width: 20%;
+    }
 }

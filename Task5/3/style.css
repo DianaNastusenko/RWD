@@ -1,0 +1,43 @@
+.first {
+    display: flex;
+}
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: darkseagreen;
+    opacity: 0.4;
+    position: absolute;
+    margin: 10px;
+    -webkit-animation: sk-bounce 4.0s infinite ease-in-out;
+    animation: sk-bounce 4.0s infinite ease-in-out;
+}
+.circle2,
+.circle4,
+.circle6 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+@-webkit-keyframes sk-bounce {
+    0%, 100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}

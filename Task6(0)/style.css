@@ -1,159 +1,150 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+    margin: 0;
+    padding: 0;
 }
-html,body{
-  width: 100%;
+html,
+body {
+    width: auto;
+    height: 100%;
+    margin: 5px;
 }
-.main{
-	display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  text-align: center;
-	width: 100%;
-  margin: 10px;
+.main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
 }
-.red{
-	background: #ff0000;
-  margin-bottom: 10px;
-	width: 100%;
-	height: 100px;
-	order: 1;
-}
-.orange{
-	background: #ffa500;
-  margin-bottom: 10px;
-	width: 100%;
-	height: 250px;
-	order: 2;
-}
-.yellow{
-	width: 65%;
-	height: 500px;
-	order: 3;
-}
-.firsttwo, .secondtwo{
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 10px;
-}
-.yellow1{
-	height: 210px;
-	width: 50%;
-	background: #ffff00;
-  margin-right: 10px;
-}
-.yellow2{
-	height: 210px;
-	width: 50%;
-	background: #ffff00;
-  margin-right: 10px;
-}
-.yellow3{
-	height: 210px;
-	width: 50%;
-	background: #ffff00;
-  margin-right: 10px;
-}
-.yellow4{
-	height: 210px;
-	width: 50%;
-	background: #ffff00;
-  margin-right: 10px;
-}
-.green{
-	background: #008000;
-	width: 35%;
-	height: 300px;
-	order: 4;
-  margin-bottom: 10px;
-}
-
-.pink{
-	background: #ffc0cb;
-	width: 64.5%;
-	height: 350px;
-	order: 5;
-  position: relative;
-  top:-60px;
-  margin-right: 10px;
-}
-.blue{
-	background: #0000ff;
-	width: 34.5%;
-	order: 6;
-	height: 300px;
-  position: relative;
-  top:-190px;
-}
-
-@media only screen and (max-width:767px){
-	.orange{
-		width: 100%;
-		order: 3;
-	}
-	.yellow{
-		width: 100%;
-		order: 2;
-    height: 220px;
-	}
-	.yellow1{
-		width: 100%;
-	}
-	.yellow2{
-		display: none;
-	}
-	.yellow3{
-		display: none;
-	}
-	.yellow4{
-		display: none;
-	}
-  .green{
-    width:100%;
-    height: 200px;
-  }
-  .blue, .pink{
-    width:100%;
-    position:inherit;
+.red {
+    background: #ff0000;
     margin-bottom: 10px;
-    height: 250px;
-  }
+    width: 100%;
+    height: 100px;
+    order: 1;
 }
-
-@media only screen and (min-width:768px) and (max-width:1023px){
-	.orange{
-		width: 70%;
-	}
-	.yellow{
-		width: 100%;
-		order: 4;
-	}
-	.yellow1{
-		width: 100%;
-    height:1234px;
-	}
-	.yellow2{
-		display: none;
-	}
-	.yellow3{
-		display: none;
-	}
-	.yellow4{
-		display: none;
-	}
-	.green{
-		width: 30%;
-		order: 2;
-		height: 140px;
-	}
-	.pink{
-		width: 100%;
-		height: 225px;
-	}
-	.blue{
-		width: 100%;
-		height: 150px;
-		top: 0;
-	}
+.orange {
+    background: #ffa500;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 250px;
+    order: 2;
+}
+.yellow {
+    width: 65%;
+    height: 500px;
+    order: 3;
+    margin-bottom: 10px;
+}
+.firsttwo,
+.secondtwo {
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.yellow1,
+.yellow2,
+.yellow3,
+.yellow4 {
+    width: 50%;
+    height: 100%;
+    background: #ffff00;
+    margin-right: 10px;
+}
+.green {
+    background: #008000;
+    width: 35%;
+    height: 300px;
+    order: 4;
+}
+.pink {
+    background: #ffc0cb;
+    width: 64%;
+    height: 350px;
+    order: 5;
+    margin-top: 10px;
+}
+.blue {
+    background: #0000ff;
+    width: 35%;
+    height: 300px;
+    margin-right: 10px;
+    position: relative;
+    top: -200px;
+    right: -10px;
+    order: 6;
+}
+@media only screen and (max-width: 767px) {
+    .orange {
+        width: 100%;
+        order: 3;
+    }
+    .yellow {
+        width: 100%;
+        order: 2;
+        height: 250px;
+    }
+    .firsttwo {
+        height: 100%;
+    }
+    .yellow1 {
+        width: 100%;
+        height: 100%;
+    }
+    .yellow2,
+    .secondtwo {
+        display: none;
+    }
+    .green {
+        width: 100%;
+    }
+    .pink {
+        width: 100%;
+    }
+    .blue {
+        width: 100%;
+        position: relative;
+        left: 0px;
+        top: 10px;
+        margin-right: 0px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    .orange {
+        width: 70%;
+        margin-right: 10px;
+    }
+    .yellow {
+        width: 100%;
+        order: 4;
+    }
+    .yellow1 {
+        width: 100%;
+        height: 100%;
+        margin-right: 0;
+    }
+    .yellow2,
+    .secondtwo {
+        display: none;
+    }
+    .green {
+        width: 28%;
+        order: 3;
+        height: 250px;
+    }
+    .pink {
+        order: 5;
+        width: 100%;
+        background-color: pink;
+        margin-bottom: 10px;
+        position: relative;
+        top: -260px;
+    }
+    .blue {
+        width: 100%;
+        top: -260px;
+        left: 0px;
+        margin: 0px;
+    }
 }

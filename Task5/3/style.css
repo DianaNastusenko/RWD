@@ -14,14 +14,23 @@
     opacity: 0.4;
     position: absolute;
     margin: 10px;
-    -webkit-animation: sk-bounce 4.0s infinite ease-in-out;
-    animation: sk-bounce 4.0s infinite ease-in-out;
+    -webkit-animation: sk-bounce 6.0s infinite ease-in-out;
+    animation: sk-bounce 6.0s infinite ease-in-out;
 }
-.circle2,
-.circle4,
-.circle6 {
-    -webkit-animation-delay: -1.0s;
-    animation-delay: -1.0s;
+.circle2{
+    animation-delay: 1.0s;
+}
+.circle3{
+    animation-delay: 2.0s;
+}
+.circle4{
+    animation-delay: 3.0s;
+}
+.circle5{
+    animation-delay: 4.0s;
+}
+.circle6{
+    animation-delay: 5.0s;
 }
 @-webkit-keyframes sk-bounce {
     0%, 100% {

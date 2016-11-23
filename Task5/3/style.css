@@ -1,13 +1,52 @@
-[role=navigation] > span a:not([href^=mailto]){
-	font-size: 30px;
-	color:coral;
+.first {
+    display: flex;
 }
-
-div div a + p + p{
-	font-size: 24px;
-    font-family: cursive;
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: darkseagreen;
+    opacity: 0.4;
+    position: absolute;
+    margin: 10px;
+    -webkit-animation: sk-bounce 6.0s infinite ease-in-out;
+    animation: sk-bounce 6.0s infinite ease-in-out;
 }
-
-div div p:nth-child(3){
-	background: green;
+.circle2{
+    animation-delay: 1.0s;
+}
+.circle3{
+    animation-delay: 2.0s;
+}
+.circle4{
+    animation-delay: 3.0s;
+}
+.circle5{
+    animation-delay: 4.0s;
+}
+.circle6{
+    animation-delay: 5.0s;
+}
+@-webkit-keyframes sk-bounce {
+    0%, 100% {
+        -webkit-transform: scale(0.0)
+    }
+    50% {
+        -webkit-transform: scale(1.0)
+    }
+}
+@keyframes sk-bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
 }

@@ -33,7 +33,7 @@ html {
 .cont {
     height: 350px;
 }
-.advertisment {
+.information {
     height: 200px;
     display: flex;
 }
@@ -66,7 +66,7 @@ html {
 /*custom media*/
 
 @media only screen and (max-width: 767px) {
-    .advertisment {
+    .information {
         height: 400px;
         display: flex;
         flex-direction: column;

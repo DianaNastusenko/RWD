@@ -1,16 +1,16 @@
-
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  height: 100%;
-  display:flex;
-  justify-content: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.obj {
+.object {
   width: 532px;
   height: 142px;
   border: 4px solid #767676;
@@ -22,10 +22,22 @@ body {
   margin:2px;
   padding: 25px 0px;
   border: 10px solid #CACACA;
+  width:528px;
+  height:138px;
   box-shadow: inset 0px 0px 2px 1px #646464;
   border-radius: 20px;
   background: linear-gradient(180deg , #E2E2E2, #B0B0B0);
   font-weight: bold;
   font-size: 50px;
   color: #545554;
+}
+
+.button::before {
+   content: "\2605";
+   color: #545554;
+}
+
+.button::after {
+   content: "\2605";
+   color: #545554;
 }

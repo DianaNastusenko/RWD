@@ -4,11 +4,11 @@
 }
 
 body {
+    height: 100vh;
     display: flex;
-    justify-content: center;
 }
-a
-{
-	display: block;
-	content: url("Android.png");
+
+a:before {
+  content:url(image/HP_logo.png);
+  height:30px;
 }

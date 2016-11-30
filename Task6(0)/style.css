@@ -14,6 +14,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     text-align: center;
+
     vertical-align: middle;
 }
 .red {
@@ -69,10 +70,8 @@ body {
     background: #0000ff;
     width: 35%;
     height: 300px;
-    margin-right: 10px;
     position: relative;
     top: -200px;
-    right: -10px;
     order: 6;
 }
 @media only screen and (max-width: 767px) {

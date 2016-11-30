@@ -48,10 +48,13 @@ body {
 .yellow2,
 .yellow3,
 .yellow4 {
+    display:flex;
     width: 50%;
     height: 100%;
     background: #ffff00;
     margin-right: 10px;
+    align-items: center;
+    justify-content: center;
 }
 .green {
     background: #008000;

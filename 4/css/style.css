@@ -79,3 +79,12 @@ html {
         width: 100%;
     }
 }
+
+@media only screen and (min-width: 1024px) {
+    .footer{
+        display:none;
+    }
+    .information {
+        height: 300px;
+    }
+}

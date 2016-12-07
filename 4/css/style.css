@@ -1,90 +1,95 @@
-* {
+html,
+body,
+.container-fluid {
+    height: 100%;
+    margin: 5px;
+}
+
+.container-fluid,
+.row,
+.row > * {
+    padding: 0px;
     margin: 0px;
-}
-body {
     height: 100%;
-    padding: 10px;
+    border: 5px solid white;
+    box-sizing: border-box;
 }
-html {
-    height: 100%;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.main {
-    height: 100%;
-}
+
 .logo {
-    background: #38C8FE;
-    margin-right: 10px;
+    background-color: #38C8FE;
+    border-right: 15px solid white;
 }
-.nav {
-    background: #FFAF47;
+
+.title {
+    background-color: #FFAF47;
 }
-.content {
-    background: #FF7747;
+
+.main {
+    background-color: #FF7747;
 }
+
 .info {
-    background: #FFD54A;
+    background-color: #FFD647;
+    border-right: 15px solid white;
 }
-.navigation {
-    height: 120px;
-    display: flex;
+
+.infolast {
+  background-color: #FFD647;
 }
-.cont {
-    height: 350px;
-}
-.information {
-    height: 200px;
-    display: flex;
-}
-.content,
-.logo,
-.nav,
-.item,
-.footer,
-.lastitem {
-    height: 100%;
-}
-.item {
-    background: #FFD647;
-    margin-right: 10px;
-}
-.lastitem {
-    background: #FFD647;
-}
-.footer-holder {
-    height: 100px;
-}
-.row {
-    padding: 5px;
-}
+
 .footer {
-    background: #FDC1FF;
-    display: flex;
-    align-items: flex-end;
-}
-/*custom media*/
-
-@media only screen and (max-width: 767px) {
-    .information {
-        height: 400px;
-        display: flex;
-        flex-direction: column;
-    }
-    .item {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-    .lastitem {
-        width: 100%;
-    }
+    background-color: #FDC1FF;
 }
 
-@media only screen and (min-width: 1024px) {
-    .footer{
-        display:none;
+/* Mobile */
+
+.first {
+    height: 20%;
+}
+
+.second {
+    height: 50%;
+}
+
+.third {
+    height: 30%;
+}
+
+.fourth {
+    display: none;
+}
+
+/* Tablet */
+
+@media (min-width: 768px) {
+    .first {
+        height: 20%;
     }
-    .information {
-        height: 300px;
+    .second {
+        height: 50%;
+    }
+    .third {
+        height: 20%;
+    }
+    .fourth {
+        height: 10%;
+        display: block;
+    }
+}
+
+/* Desktop */
+
+@media (min-width: 1200px) {
+    .first {
+        height: 20%;
+    }
+    .second {
+        height: 50%;
+    }
+    .third {
+        height: 30%;
+    }
+    .fourth {
+        display: none;
     }
 }
